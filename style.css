@@ -1,0 +1,103 @@
+body{
+    background-color: powderblue;
+    
+}
+
+h1 {
+    color: blueviolet;
+    font-family: verdana;
+    font-size: 200%;
+
+
+}
+p {
+    color: brown;
+    font-family: poppins;
+    font-size: 160%;
+}
+
+
+/* CSS Border */
+p {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 40px;
+}
+
+a {
+    margin: 30px;
+    font-size: 20px;
+    position: relative;
+}
+
+/* button {
+    background-color: orange;
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+} */
+
+
+/* Link Styles */
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+.bt a:link, a:visited  {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 60px;
+
+}
+
+.bt a:hover, a:active {
+    background-color: red;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    /* border: 2px solid red; */
+    /* border-radius: 50%; */
+    margin: 20px;
+}
+
+#gif  {
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+#giff {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
